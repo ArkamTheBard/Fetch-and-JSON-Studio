@@ -23,7 +23,6 @@ window.addEventListener("load", () => {
                 ++count;
             }
             const activeArr = document.querySelectorAll("[id=active]");
-            console.log(activeArr[0]);
             for(let i = 0; i < activeArr.length; ++i){
                 if(activeArr[i].innerText === "Active: true"){
                     activeArr[i].style.color = "green";
